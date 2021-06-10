@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.4583" branch-rate="0.7" version="1.9" timestamp="1623296691" lines-covered="44" lines-valid="96" branches-covered="14" branches-valid="20">
+  <sources>
+    <source>C:\Users\yivan\source\repos\ConsoleApp3\Core\</source>
+  </sources>
+  <packages>
+    <package name="Core" line-rate="0.4583" branch-rate="0.7" complexity="25">
+      <classes>
+        <class name="Core.Services.CashMachineService" filename="Services\CashMachineService.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="Start" signature="(Core.Enum.CashMachineValuesOptions)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="InitializeCashMachineValues" signature="(Core.Enum.CashMachineValuesOptions)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="46" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="9" type="switch" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="DisplayOperationUserResponse" signature="(System.Collections.Generic.Dictionary`2&lt;System.Int32,System.Int32&gt;)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="75" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="78" hits="0" branch="False" />
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Core.Interfaces.IOperationService,Core.Interfaces.ICashMachineValuesRepository)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="9" type="switch" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="75" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="78" hits="0" branch="False" />
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Core.Services.OperationService" filename="Services\OperationService.cs" line-rate="1" branch-rate="1" complexity="15">
+          <methods>
+            <method name="Withdraw" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="18" hits="6" branch="False" />
+                <line number="20" hits="6" branch="False" />
+                <line number="21" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="27" hits="27" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="109" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="28" hits="9" branch="False" />
+                <line number="29" hits="9" branch="False" />
+                <line number="31" hits="16" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="77" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="7" branch="False" />
+                <line number="33" hits="7" branch="False" />
+                <line number="34" hits="7" branch="False" />
+                <line number="35" hits="16" branch="False" />
+                <line number="37" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="89" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="7" branch="False" />
+                <line number="39" hits="9" branch="False" />
+                <line number="41" hits="3" branch="False" />
+                <line number="43" hits="3" branch="False" />
+                <line number="44" hits="3" branch="False" />
+                <line number="45" hits="3" branch="False" />
+                <line number="47" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="ValidateOperation" signature="(System.Int32,System.Collections.Generic.List`1&lt;System.Int32&gt;)" line-rate="1" branch-rate="1" complexity="8">
+              <lines>
+                <line number="50" hits="6" branch="False" />
+                <line number="52" hits="6" branch="False" />
+                <line number="53" hits="24" branch="False" />
+                <line number="55" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="51" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="56" hits="2" branch="False" />
+                <line number="58" hits="36" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="114" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="12" branch="False" />
+                <line number="60" hits="21" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="103" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="61" hits="9" branch="False" />
+                <line number="62" hits="9" branch="False" />
+                <line number="63" hits="21" branch="False" />
+                <line number="64" hits="12" branch="False" />
+                <line number="66" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="141" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="3" branch="False" />
+                <line number="69" hits="3" branch="False" />
+                <line number="70" hits="3" branch="False" />
+                <line number="71" hits="3" branch="False" />
+                <line number="73" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Core.Interfaces.ICashMachineValuesRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="6" branch="False" />
+            <line number="20" hits="6" branch="False" />
+            <line number="21" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="27" hits="27" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="109" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="28" hits="9" branch="False" />
+            <line number="29" hits="9" branch="False" />
+            <line number="31" hits="16" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="77" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="32" hits="7" branch="False" />
+            <line number="33" hits="7" branch="False" />
+            <line number="34" hits="7" branch="False" />
+            <line number="35" hits="16" branch="False" />
+            <line number="37" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="89" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="38" hits="7" branch="False" />
+            <line number="39" hits="9" branch="False" />
+            <line number="41" hits="3" branch="False" />
+            <line number="43" hits="3" branch="False" />
+            <line number="44" hits="3" branch="False" />
+            <line number="45" hits="3" branch="False" />
+            <line number="47" hits="3" branch="False" />
+            <line number="50" hits="6" branch="False" />
+            <line number="52" hits="6" branch="False" />
+            <line number="53" hits="24" branch="False" />
+            <line number="55" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="51" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="56" hits="2" branch="False" />
+            <line number="58" hits="36" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="114" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="59" hits="12" branch="False" />
+            <line number="60" hits="21" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="103" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="61" hits="9" branch="False" />
+            <line number="62" hits="9" branch="False" />
+            <line number="63" hits="21" branch="False" />
+            <line number="64" hits="12" branch="False" />
+            <line number="66" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="141" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="3" branch="False" />
+            <line number="69" hits="3" branch="False" />
+            <line number="70" hits="3" branch="False" />
+            <line number="71" hits="3" branch="False" />
+            <line number="73" hits="3" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="Core.Repository.CashMachineValuesRepository" filename="Repository\CashMachineValuesRepository.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="AddValues" signature="(System.Int32[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetValues" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
